@@ -16,12 +16,14 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 /* CARD STYLING */
 .card {
     width: 300px;
-    background-color: white;
     padding: 15px;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-align: center;
@@ -29,7 +31,7 @@ main {
 }
 /* Card hover - lifts up a little */
 .card:hover {
-    transform: translate(-5px);
+    transform: translateY(-5px);
 }
 /* Image inside card */
 .card img {
